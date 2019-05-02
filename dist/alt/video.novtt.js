@@ -22964,7 +22964,7 @@ var Player = function (_Component) {
   * */
 
 
-  Player.prototype.newRest = function newRest() {
+  Player.prototype.newReset = function newReset() {
     this.triggerReady();
     this.techCall_('reset');
   };
